@@ -1,5 +1,7 @@
 package com.br.students.list;
 
+import javafx.print.Collation;
+
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -39,6 +41,7 @@ public class App {
     private static void Lista(){
         System.out.println("Listando ...");
         arlist.forEach(student -> Imprime(student));
+        Collation.values();
     }
 
     private static void Imprime(String student){
