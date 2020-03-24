@@ -40,14 +40,10 @@ public class App {
 
     private static void Lista(){
         System.out.println("Listando ...");
-        arlist.forEach(student -> Imprime(student));
+        arlist.forEach(student -> System.out.println(student))
         Collation.values();
     }
 
-    private static void Imprime(String student){
-        System.out.println(student);
-    }
-        
     public static void main(String[] args) {
         boolean run = true;
 
